@@ -13,7 +13,7 @@ This system **uses Java data structures**:
 
 ## Features
 
-✅ **Book Flight:** Adds a passenger if space is available. 
+✅ **Book Flight:** Adds a passenger if space is available.<br> 
 ✅ **Waitlist Management:** Places extra passengers on a **waitlist** when full.
 ✅ **Cancellation System:** Automatically **assigns the seat to the next waitlisted passenger**.  
 ✅ **FIFO Handling:** Waitlist follows **First In, First Out (FIFO)** order.
