@@ -14,10 +14,10 @@ This system **uses Java data structures**:
 ## Features
 
 ✅ **Book Flight:** Adds a passenger if space is available.<br> 
-✅ **Waitlist Management:** Places extra passengers on a **waitlist** when full.
-✅ **Cancellation System:** Automatically **assigns the seat to the next waitlisted passenger**.  
-✅ **FIFO Handling:** Waitlist follows **First In, First Out (FIFO)** order.
-✅ **Dynamic Seat Availability:** Updates seat count when passengers **cancel or get assigned**.
+✅ **Waitlist Management:** Places extra passengers on a **waitlist** when full.<br>
+✅ **Cancellation System:** Automatically **assigns the seat to the next waitlisted passenger**.<br>
+✅ **FIFO Handling:** Waitlist follows **First In, First Out (FIFO)** order.<br>
+✅ **Dynamic Seat Availability:** Updates seat count when passengers **cancel or get assigned**.<br>
 
 ## 📌 Technologies Used
 
@@ -50,12 +50,12 @@ java Main
 
 ## Code Structure
 
-📦src
-|- 📜Passenger.java
-|- 📜PassengerList.java
-|- 📜WaitlistQueue.java
-|- 📜Flight.java
-|- 📜Main.java
+📦src<br>
+|- 📜Passenger.java<br>
+|- 📜PassengerList.java<br>
+|- 📜WaitlistQueue.java<br>
+|- 📜Flight.java<br>
+|- 📜Main.java<br>
 
 ## Example Usage
 
@@ -100,9 +100,13 @@ Passenger: Eve, Ticket Number: 105
 Passenger: Frank, Ticket Number: 106
 ---------------------Cancellation---------------------
 
----------------------Cancellation--------------------- Passenger: 
-Charlie, Ticket Number: 103 cancelled! Passenger: Grace, Ticket Number: 
-107 booked! Passenger: Alice, Ticket Number: 101 Passenger: David, 
-Ticket Number: 104 Passenger: Eve, Ticket Number: 105 Passenger: Frank, 
-Ticket Number: 106 Passenger: Grace, Ticket Number: 107 
----------------------Cancellation--------------------- ```
+---------------------Cancellation---------------------
+Passenger: Charlie, Ticket Number: 103 cancelled!
+Passenger: Grace, Ticket Number: 107 booked!
+Passenger: Alice, Ticket Number: 101
+Passenger: David, Ticket Number: 104
+Passenger: Eve, Ticket Number: 105
+Passenger: Frank, Ticket Number: 106
+Passenger: Grace, Ticket Number: 107 
+---------------------Cancellation---------------------
+```
