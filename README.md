@@ -1,6 +1,6 @@
 # Flight Waitlist Simulation
 
-## Overview
+## 📌 Overview
 
 This project simulates an **Airline Booking System** where:
 - Passengers can **book flights** if seats are available.
@@ -14,12 +14,12 @@ This system **uses Java data structures**:
 ## Features
 
 ✅ **Book Flight:** Adds a passenger if space is available. 
-**Waitlist Management:** Places extra passengers on a **waitlist** when full.
-**Cancellation System:** Automatically **assigns the seat to the next waitlisted passenger**.  
-**FIFO Handling:** Waitlist follows **First In, First Out (FIFO)** order.
-**Dynamic Seat Availability:** Updates seat count when passengers **cancel or get assigned**.
+✅ **Waitlist Management:** Places extra passengers on a **waitlist** when full.
+✅ **Cancellation System:** Automatically **assigns the seat to the next waitlisted passenger**.  
+✅ **FIFO Handling:** Waitlist follows **First In, First Out (FIFO)** order.
+✅ **Dynamic Seat Availability:** Updates seat count when passengers **cancel or get assigned**.
 
-## Technologies Used
+## 📌 Technologies Used
 
 - **Java (JDK 17+)**
 - **Object-Oriented Programming (OOP)**
@@ -27,22 +27,22 @@ This system **uses Java data structures**:
 - **Queues (FIFO)**
 - **Custom Data Structures**
 
-## Setup Instructions
+## 📌 Setup Instructions
 
-### Clone the repository
+### 1️⃣ Clone the repository
 
 ```bash
 git clone https://github.com/your-username/airline-booking-system.git
 cd airline-booking-system
 ```
 
-### Compile the java files
+### 2️⃣ Compile the java files
 
 ```cmd
 javac Main.java
 ```
 
-### Run the Program
+### 3️⃣ Run the Program
 
 ```cmd
 java Main
@@ -50,13 +50,12 @@ java Main
 
 ## Code Structure
 
-Airline Booking Wailist Sim
-|-src
-   |- Paasenger.java
-   |- PassengerList.java
-   |- WaitlistQueue.java
-   |- Flight.java
-   |- Main.java
+📦src
+|- 📜Passenger.java
+|- 📜PassengerList.java
+|- 📜WaitlistQueue.java
+|- 📜Flight.java
+|- 📜Main.java
 
 ## Example Usage
 
