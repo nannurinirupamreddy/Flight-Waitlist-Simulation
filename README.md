@@ -32,8 +32,8 @@ This system **uses Java data structures**:
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/your-username/airline-booking-system.git
-cd airline-booking-system
+git clone https://github.com/nannurinirupamreddy/Flight-Waitlist-Simulation.git
+cd Flight-Waitlist-Simulation
 ```
 
 ### 2️⃣ Compile the java files
